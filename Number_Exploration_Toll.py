@@ -19,6 +19,7 @@ elif total_sum > 1:
         if (total_sum % i) == 0 :
             print("Oh! This not a prime number ")
             break
+    else:
         print(f"Wow, {total_sum} is a prime number!")
-        break
+        
     
